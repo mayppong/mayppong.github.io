@@ -1,0 +1,122 @@
+/*
+ Author: 	May Pongpitpitak
+ Date: 		Sept 28, 2012
+ Contact: www.mayppong.com
+*/
+
+@charset "UTF-8";
+@viewport {
+  width: device-width;
+  zoom: 1;
+}
+
+/**
+ **********  GLOBAL
+ */ 
+
+body {
+  background:       url(../res/bg.jpg) repeat;
+  font:             0.8em Droid Sans;
+}
+footer {
+  font:             0.6em Droid Sans;
+  text-align:       right;
+}
+header h3, header h4, header h5, header h6 {
+  margin:           0 auto 0.5em;
+}
+
+ul {
+  padding-left:     1em;
+}
+  section > ul {
+    margin:           0 auto;
+  }
+
+
+/**
+ **********  DEFAULT VIEW STYLE
+ */ 
+
+/*  Card View */
+.card-view {
+  clear:            both;
+  list-style-type:  none;
+}
+.card-view li {
+  display:          inline-block;
+  min-width:        20em;
+  vertical-align:   top;
+}
+
+/* Hidden element */
+.hidden {
+  display:          none;
+}
+
+/* Section */
+.section {
+  background-color: white;
+  /*box-shadow:       2px 2px 8px #888888;*/
+  margin:           auto auto 2em auto;
+  max-width:        40em;
+  padding:          1em 1em;
+}
+.section h2 {
+  margin:           -0.5em -0.5em 0 -0.5em;
+  padding:          0.5em 1.5em;
+  text-align:       center;
+}
+  .content header {
+    margin-bottom:    0;
+  }
+  .more-details {
+    display:          none;
+  }
+
+
+
+/**
+ **********  CUSTOM VIEW STYLE
+ */ 
+
+
+#about {
+  min-height:       24em;
+}
+#about h2 {
+  background-color: RGB(195, 235, 139);
+}
+#portrait{
+  float:            left;
+  height:           14em;
+  margin:           0 1em 1em;
+}
+  img#self {
+    height:           10em;
+    margin-bottom:    0.8em;
+    width:            10em;
+  }
+
+#exp h2 {
+  background-color: RGB(240, 112, 112);
+}
+#exp li {
+  margin:           1em;
+}
+
+#skills h2 {
+  background-color: RGB(149, 220, 226);
+}
+#skills li {
+  margin:           auto 1em;
+}
+
+#edu h2 {
+    background-color: RGB(183, 156, 217);
+}
+
+
+#interest h2 {
+  background-color: RGB(250, 223, 131);
+}
