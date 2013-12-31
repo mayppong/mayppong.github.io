@@ -16,7 +16,7 @@
  */ 
 
 body {
-  background:       url(../res/bg.jpg) repeat;
+  background:       url(../res/backgrounds/bg.jpg) repeat;
   font:             0.8em Droid Sans;
 }
 footer {
@@ -109,7 +109,7 @@ ul {
 #skills h2 {
   background-color: RGB(149, 220, 226);
 }
-#skills li {
+#skills .card {
   margin:           auto 1em;
 }
 
