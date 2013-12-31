@@ -6,7 +6,7 @@
 body {
   margin-top:       2em;
 }
-.card-view li {
+.card-view .card {
   max-width:        44%;
 }
 
