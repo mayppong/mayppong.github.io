@@ -1,0 +1,91 @@
+/*
+ Author: 	May Pongpitpitak
+ Date: 		Dec 30, 2013
+ Contact: www.mayppong.com
+*/
+
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+@viewport {
+  width: device-width;
+  zoom: 1;
+}
+
+/**
+ **********  GLOBAL
+ */ 
+
+body {
+  background:       url(../res/backgrounds/bg.jpg) repeat;
+  font:             0.8em Droid Sans;
+}
+footer {
+  font:             0.6em Droid Sans;
+  text-align:       right;
+}
+ul {
+  padding-left:     1em;
+}
+
+
+/**
+ **********  DEFAULT VIEW STYLE
+ */ 
+
+/*  Card View */
+.card-view {
+  clear:            both;
+  list-style-type:  none;
+}
+  .card-view .card {
+    display:          inline-block;
+    min-width:        20em;
+    vertical-align:   top;
+  }
+  .card-view > ul {
+    margin:           0 auto;
+  }
+
+/* Hidden element */
+.hidden {
+  display:          none;
+}
+
+/* Section */
+.section {
+  background-color: white;
+  margin:           auto auto 2em auto;
+  max-width:        40em;
+  padding:          1em 1em;
+}
+
+
+
+/**
+ **********  CUSTOM VIEW STYLE
+ */ 
+
+
+#about {
+  min-height:       24em;
+}
+#about h2 {
+  background-color: RGB(195, 235, 139);
+}
+#portrait{
+  float:            left;
+  height:           14em;
+  margin:           0 1em 1em;
+}
+  img#self {
+    height:           10em;
+    margin-bottom:    0.8em;
+    width:            10em;
+  }
+
+#skills h2 {
+  background-color: RGB(149, 220, 226);
+}
+#skills .card {
+  margin:           auto 1em;
+}
