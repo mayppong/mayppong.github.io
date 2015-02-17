@@ -1,0 +1,14 @@
+Dark Red	RGB(237, 94, 94)
+Light Red	RGB(240, 112, 112)
+
+Dark Yellow	RGB(248, 208, 90)
+Light Yellow	RGB(250, 223, 131)
+
+Dark Green	RGB(117, 228, 110)
+Light Green	RGB(195, 235, 139)
+
+Dark Purple	RGB(172, 142, 211)
+Light Purple	RGB(183, 156, 217)
+
+Dark Blue	RGB(121, 209, 217)
+Light Blue	RGB(149, 220, 226)

@@ -1,0 +1,24 @@
+/*
+ Author: 	May Pongpitpitak
+ Date: 		Sept 28, 2012
+ Contact: www.mayppong.com
+*/
+body {
+  margin-top:       2em;
+}
+
+.section {
+  box-shadow:       2px 2px 8px #888888;
+  margin:           auto auto 2em auto;
+  max-width:        52em;
+  padding:          1em 2em;
+}
+  .section h2 {
+    margin:           -1em -2em 0 -2em;
+    padding:          0.5em 1.5em;
+  }
+
+#skills .card {
+  max-width:        28%;
+  min-width:        28%;
+}

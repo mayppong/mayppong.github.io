@@ -1,0 +1,154 @@
+/*
+ Author:  May Pongpitpitak
+ Date:    Jan 15, 2012
+ Contact: www.mayppong.com
+*/
+
+
+
+/******************** DEFAULT ********************/
+
+body {
+  font:             0.8em Droid Serif;
+  margin:           30px auto;
+  width:            650px;
+}
+
+footer {
+  display:          none;
+}
+
+a {
+  /*target-new:       tab;*/
+}
+
+dt {
+  font-weight:      bold;
+}
+
+h1 {  /* Name */
+  font-size:        2em;
+  margin-top:       0;
+}
+
+h3 {  /* Job title, school title  */
+  font-size:        1.4em;
+  margin:           0;
+}
+
+h4 {  /* Company's name */
+  color:            #888888;
+  font-size:        1.2em;
+  margin:           0 0 2px 0;
+}
+  .sect_label {
+    box-shadow:       1px 1px 2px #888888;
+    min-width:        1em;
+  }
+
+h5 {  /* Sub-title */
+  font-size:        1em;
+  margin:           0;
+  text-decoration:  underline;
+}
+
+h6 {  /* Date of employment,  */
+  color:            #888888;
+  font-size:        0.9em;
+  font-weight:      normal;  
+  margin:           0;
+}
+
+.hidden {
+  display:          none;
+}
+.page-break {
+  page-break-before: always;
+  height:            2em;
+}
+/*
+.vert {
+  writing-mode:     tb-lr;
+}
+*/
+
+
+
+/******************** CLASSES ********************/
+
+.content {
+  display:          inline-block;
+  min-height:       200px;
+  padding:          0.5em 1em;
+  width:            580px;
+}
+.content ul {
+  list-style-type:  none;
+  margin:           0;
+  padding:          0;
+}
+.content li {
+  padding-left:     1em;
+  text-indent:      0;
+}
+
+.section {
+  clear:            both;
+  padding:          0.4em 0;
+}
+  .section h2 {  /* Section's label  */
+    float:            left;
+    margin:           0;
+    padding:          0 0.4em;
+    font-family:      Droid Sans Mono;
+    width:            1.2em;
+  }
+
+
+/******************** IDS ********************/
+
+#about {
+
+}
+#about p {
+  float:            left;
+  margin:           0.4em 0;
+  width:            550px;
+  vertical-align:   top;
+}
+  #portrait {
+    display:          none;
+  }
+
+
+#exp {
+}
+#exp .content li {
+  display:          none;
+}
+#exp .content li:nth-child(1), 
+#exp .content li:nth-child(2), 
+#exp .content li:nth-child(3)  {
+  display:          block;
+}
+
+
+#skills {
+}
+#skills .column {
+  display:          inline-block;
+  vertical-align:   top;
+  width:            32%;
+}
+
+
+#edu {
+}
+#edu dl{
+  display:          none;
+}
+
+
+#interest {
+  display:          none;
+}
