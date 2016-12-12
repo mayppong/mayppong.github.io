@@ -1,0 +1,35 @@
+# Site settings
+name: May Pongpitpitak
+description: "Nifty little description"
+url: "www.mayppong.com"
+
+
+# Delete the lines you don't need
+# about 5 elements are recomended
+github_username: mayppong
+twitter_username: mayppong
+google_plus_username: MayPongpitpitak
+linkedin_username: mayppong
+tumblr_username: mayppong
+
+
+avatar: yes
+#avatar_img_path: "imgs/avatar.jpg""
+# You can link to your GitHub image. That way it will get updated
+# automatically whenever you change your GitHub profile picture
+avatar_img_path: "https://avatars3.githubusercontent.com/u/282189"
+
+
+front_img: yes
+front_img_path: "imgs/background.jpg"
+#front_img_path: "https://external.url/image.jpg"
+
+
+favicon_img: yes
+favicon_img_path: "imgs/favicon.ico"
+#favicon_img_path: "https://external.url/favicon.ico"
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
