@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<main id="article">
+  {% if page.thumbnail %}
+  <div
+    class="article-thumbnail"
+    style="background-image: url('{{ site.baseurl }}/{{ page.thumbnail }}');"
+  >
+  {% else %}
+  <div class="article-thumbnail">
+  {% endif %}
+    <h1 class="article-title">{{ page.title }}</h1>
+    <div class="article-bottom">
+      <small class="article-date">{{page.date | date_to_string}}</small>
+      <div class="article-tags">
+        {% for c in page.tags %}
+        <a href="#!" class="article-tag">{{c}}</a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <div class="article-content">{{content}}</div>
+</main>

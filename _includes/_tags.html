@@ -1,0 +1,9 @@
+<div class="article-tags">
+  {% for c in include.tags %}
+  <a
+    href="#!"
+    data-base-url="{{site.baseurl}}"
+    class="article-tag"
+    >{{c}}</a>
+  {% endfor %}
+</div>
