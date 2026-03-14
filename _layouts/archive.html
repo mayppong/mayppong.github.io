@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+<main class="feed">
+  <h1 class="page-title">By {{ page.type }}: {{ page.title }}</h1>
+
+  {% include _posts.html posts = page.posts%}
+</main>

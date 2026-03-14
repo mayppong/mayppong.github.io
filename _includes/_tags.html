@@ -1,8 +1,7 @@
 <div class="article-tags">
   {% for c in include.tags %}
   <a
-    href="#!"
-    data-base-url="{{site.baseurl}}"
+    href="/tag/{{ c }}/"
     class="article-tag"
     >{{c}}</a>
   {% endfor %}

@@ -40,14 +40,6 @@ body {
   line-height: 2rem;
 }
 
-hr {
-  border-top: 5px dashed var(--dm-contrast) !important;
-  border-bottom: none !important;
-  border-left: none !important;
-  border-right: none !important;
-  margin-bottom: 1.75rem !important;
-}
-
 main {
   margin: 0 auto;
   max-width: 650px;
@@ -69,6 +61,11 @@ header .site-title {
   font-weight: bolder;
   line-height: 110%;
   color: var(--text-dm-site-title);
+}
+
+.page-title {
+  font-size: 3rem;
+  padding: 0 0 2rem 0;
 }
 
 #bio {

@@ -1,0 +1,13 @@
+---
+layout: default
+title: Post Archives
+---
+
+{% assign all_tags = site.tags | keys %}
+
+<main>
+  <h1 class="page-title">Tags:</h1>
+  <div>
+    {% include _tags.html tags=all_tags %}
+  </div>
+</main>
