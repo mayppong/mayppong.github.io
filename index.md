@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home Page
+description: Welcome to May's homepage. Hope you enjoy your time here :)
 ---
 
 <main class="feed">
